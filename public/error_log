@@ -1,0 +1,4 @@
+[12-Aug-2022 09:13:17 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/softsuitetech/public_html/DEMO/Restaurant_Backend/routes/web.php on line 10
+[12-Aug-2022 09:13:36 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/softsuitetech/public_html/DEMO/Restaurant_Backend/routes/web.php on line 10
+[12-Aug-2022 09:13:42 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/softsuitetech/public_html/DEMO/Restaurant_Backend/routes/web.php on line 10
+[12-Aug-2022 09:14:47 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.21. in /home/softsuitetech/public_html/DEMO/Restaurant_Backend/vendor/composer/platform_check.php on line 24
