@@ -381,7 +381,7 @@ $role=Auth()->user()->role;
                               </div>
                               <br>
                               <div class="form-group">
-                                 <div class="item_opt_wrapper">
+                                 {{-- <div class="item_opt_wrapper">
                                     <div class="row">
                                        <div class="col-lg-3 col-md-4">
                                           <div class="d-flex">
@@ -404,7 +404,7 @@ $role=Auth()->user()->role;
                                              
                                           </div>
                                           
-                                       </div>
+                                       </div> --}}
                                     
                                        <!-- <div class="col-lg-4 col-md-12">
                                           <div class="form-group radio_c_group">
@@ -414,7 +414,7 @@ $role=Auth()->user()->role;
                                               </div>
                                           </div>
                                           </div> -->
-                                    </div>
+                                    {{-- </div>
                                     
                                  </div>
                                  <div class="item_opt_wrapper" style="background-color: #fff;">
@@ -440,7 +440,7 @@ $role=Auth()->user()->role;
                                              </div>    
 
                                           </div>
-                                       </div>
+                                       </div> --}}
                                        <!-- <div class="col-lg-4 col-md-12">
                                              <div class="form-group radio_c_group">
                                                  <div class="form-check">
@@ -449,7 +449,7 @@ $role=Auth()->user()->role;
                                                  </div>
                                              </div>
                                           </div> -->
-                                    </div>
+                                    {{-- </div>
                                  </div>
                       
                                  <div class="form-group">
@@ -473,7 +473,7 @@ $role=Auth()->user()->role;
                                                 <input style="" type="time" class="form-control" name="sec3_table_service_Etime" placeholder="" value="{{$data->sec3_table_service_Etime}}">         
                                                 </div>                                          
                                              </div>
-                                          </div>
+                                          </div> --}}
                                           <!-- <div class="col-lg-4 col-md-12">
                                              <div class="form-group radio_c_group">
                                                  <div class="form-check">
@@ -482,9 +482,9 @@ $role=Auth()->user()->role;
                                                  </div>
                                              </div>
                                           </div> -->
-                                       </div>
+                                       {{-- </div>
                                  
-                                    </div>
+                                    </div> --}}
 
                                     
                                     

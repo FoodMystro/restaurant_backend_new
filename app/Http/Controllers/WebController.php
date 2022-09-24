@@ -15,7 +15,8 @@ class WebController extends Controller
 {
     public function index(){
         $data=home::first();
-        return view('frontend.layout.index', compact('data'));
+        $current_day=date('l');
+        return view('frontend.layout.index', compact('data','current_day'));
     }
 
     public function blog(){
