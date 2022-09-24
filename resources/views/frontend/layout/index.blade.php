@@ -121,25 +121,25 @@
                                   
                                    
                                         <div>    
-                                            @if($data->delivery_status == 0 && $data->sec4_card1_day1 == $current_day )
+                                            @if($data->status_card1_day1 ==null && $data->sec4_card1_day1 == $current_day )
                                                 {{$data->sec4_card1_day1_Stime}} AM - {{$data->sec4_card1_day1_Etime}} PM
 
-                                            @elseif ($data->delivery_status == 0 && $data->sec4_card1_day2 == $current_day)
+                                            @elseif ($data->status_card1_day2 ==null && $data->sec4_card1_day2 == $current_day)
                                             {{$data->sec4_card1_day2_Stime}} AM - {{$data->sec4_card1_day2_Etime}} PM
 
-                                            @elseif($data->delivery_status == 0 && $data->sec4_card1_day3 == $current_day)
+                                            @elseif($data->status_card1_day3 ==null && $data->sec4_card1_day3 == $current_day)
                                            {{$data->sec4_card1_day3_Stime}} AM - {{$data->sec4_card1_day3_Etime}} PM
 
-                                           @elseif($data->delivery_status == 0 && $data->sec4_card1_day4 == $current_day)
+                                           @elseif($data->status_card1_day4 ==null && $data->sec4_card1_day4 == $current_day)
                                            {{$data->sec4_card1_day4_Stime}} AM - {{$data->sec4_card1_day4_Etime}} PM
 
-                                           @elseif($data->delivery_status == 0 && $data->sec4_card1_day5 == $current_day)
+                                           @elseif($data->status_card1_day5 ==null && $data->sec4_card1_day5 == $current_day)
                                            {{$data->sec4_card1_day5_Stime}} AM - {{$data->sec4_card1_day5_Etime}} PM
 
-                                           @elseif($data->delivery_status == 0 && $data->sec4_card1_day6 == $current_day)
+                                           @elseif($data->status_card1_day6 ==null && $data->sec4_card1_day6 == $current_day)
                                            {{$data->sec4_card1_day6_Stime}} AM - {{$data->sec4_card1_day6_Etime}} PM
 
-                                           @elseif($data->delivery_status == 0 && $data->sec4_card1_day7 == $current_day)
+                                           @elseif($data->status_card1_day7 == null && $data->sec4_card1_day7 == $current_day)
                                            {{$data->sec4_card1_day7_Stime}} AM - {{$data->sec4_card1_day7_Etime}} PM
 
                                             @else
@@ -156,25 +156,25 @@
 
 
                                     <div>
-                                        @if($data->delivery_status == 0 && $data->sec4_card2_day1 == $current_day )
+                                        @if($data->status_card2_day1 ==null && $data->sec4_card2_day1 == $current_day )
                                         {{$data->sec4_card2_day1_Stime}} AM - {{$data->sec4_card2_day1_Etime}} PM
 
-                                    @elseif ($data->delivery_status == 0 && $data->sec4_card2_day2 == $current_day)
+                                    @elseif ($data->status_card2_day2 ==null && $data->sec4_card2_day2 == $current_day)
                                     {{$data->sec4_card2_day2_Stime}} AM - {{$data->sec4_card2_day2_Etime}} PM
 
-                                    @elseif($data->delivery_status == 0 && $data->sec4_card2_day3 == $current_day)
+                                    @elseif($data->status_card2_day3 ==null && $data->sec4_card2_day3 == $current_day)
                                    {{$data->sec4_card2_day3_Stime}} AM - {{$data->sec4_card2_day3_Etime}} PM
 
-                                   @elseif($data->delivery_status == 0 && $data->sec4_card2_day4 == $current_day)
+                                   @elseif($data->status_card2_day4 ==null && $data->sec4_card2_day4 == $current_day)
                                    {{$data->sec4_card2_day4_Stime}} AM - {{$data->sec4_card2_day4_Etime}} PM
 
-                                   @elseif($data->delivery_status == 0 && $data->sec4_card2_day5 == $current_day)
+                                   @elseif($data->status_card2_day5 ==null && $data->sec4_card2_day5 == $current_day)
                                    {{$data->sec4_card2_day5_Stime}} AM - {{$data->sec4_card2_day5_Etime}} PM
 
-                                   @elseif($data->delivery_status == 0 && $data->sec4_card2_day6 == $current_day)
+                                   @elseif($data->status_card2_day6 ==null && $data->sec4_card2_day6 == $current_day)
                                    {{$data->sec4_card2_day6_Stime}} AM - {{$data->sec4_card2_day6_Etime}} PM
 
-                                   @elseif($data->delivery_status == 0 && $data->sec4_card2_day7 == $current_day)
+                                   @elseif($data->status_card2_day7 ==null && $data->sec4_card2_day7 == $current_day)
                                    {{$data->sec4_card2_day7_Stime}} AM - {{$data->sec4_card2_day7_Etime}} PM
                                         @else
                                             <span class="text-danger"><b>Closed!</b></span>
@@ -187,25 +187,25 @@
                                 <dt class="col-sm-3">{{$data->sec3_title3}}</dt>
                                 <dd class="col-sm-9">
                                     <div>
-                                        @if($data->delivery_status == 0 && $data->sec4_card3_day1 == $current_day )
+                                        @if($data->status_card3_day1 ==null && $data->sec4_card3_day1 == $current_day )
                                         {{$data->sec4card3_day1_Stime}} AM - {{$data->sec4_card3_day1_Etime}} PM
 
-                                    @elseif ($data->delivery_status == 0 && $data->sec4_card3_day2 == $current_day)
+                                    @elseif ($data->status_card3_day2 ==null && $data->sec4_card3_day2 == $current_day)
                                     {{$data->sec4_card3_day2_Stime}} AM - {{$data->sec4_card3_day2_Etime}} PM
 
-                                    @elseif($data->delivery_status == 0 && $data->sec4_card3_day3 == $current_day)
+                                    @elseif($data->status_card3_day3 ==null && $data->sec4_card3_day3 == $current_day)
                                    {{$data->sec4_card3_day3_Stime}} AM - {{$data->sec4_card3_day3_Etime}} PM
 
-                                   @elseif($data->delivery_status == 0 && $data->sec4_card3_day4 == $current_day)
+                                   @elseif($data->status_card3_day4 ==null && $data->sec4_card3_day4 == $current_day)
                                    {{$data->sec4_card3_day4_Stime}} AM - {{$data->sec4_card3_day4_Etime}} PM
 
-                                   @elseif($data->delivery_status == 0 && $data->sec4_card3_day5 == $current_day)
+                                   @elseif($data->status_card3_day5 ==null && $data->sec4_card3_day5 == $current_day)
                                    {{$data->sec4_card3_day5_Stime}} AM - {{$data->sec4_card3_day5_Etime}} PM
 
-                                   @elseif($data->delivery_status == 0 && $data->sec4_card3_day6 == $current_day)
+                                   @elseif($data->status_card3_day6 ==null && $data->sec4_card3_day6 == $current_day)
                                    {{$data->sec4_card3_day6_Stime}} AM - {{$data->sec4_card3_day6_Etime}} PM
 
-                                   @elseif($data->delivery_status == 0 && $data->sec4_card3_day7 == $current_day)
+                                   @elseif($data->status_card3_day7 ==null && $data->sec4_card3_day7 == $current_day)
                                    {{$data->sec4_card3_day7_Stime}} AM - {{$data->sec4_card3_day7_Etime}} PM
                                         @else
                                             <span class="text-danger"><b>Closed!</b></span>
