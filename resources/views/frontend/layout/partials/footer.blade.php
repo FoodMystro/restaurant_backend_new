@@ -56,9 +56,9 @@
                                 @if($data->sec_1_heading8!=null)
                                 <li><a href="{{$data->sec_1_heading8}}"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="{{asset('')}}assets/img/instagram_icon.svg" alt="" class="lazy"></a></li>
                                 @endif
-                                @if($data->sec_1_heading7!=null)
-                                <li><a href="{{$data->sec_1_heading7}}"><img src=" data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="{{asset('')}}assets/img/youtube_icon.svg" alt="" class="lazy"></a></li>
-                                @endif
+                                {{-- @if($data->sec_1_heading7!=null)
+                                <li><a href="{{$data->sec_1_heading4}}"><img src=" data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="{{asset('')}}assets/img/youtube_icon.svg" alt="" class="lazy"></a></li>
+                                @endif --}}
                             </ul>
                         </div>
                     </div>

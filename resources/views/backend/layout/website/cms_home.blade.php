@@ -474,7 +474,7 @@ $role=Auth()->user()->role;
                                                 </div>                                           --}}
                                              </div>
                                           </div>
-                                          <!-- <div class="col-lg-4 col-md-12">
+                                          <!-- <div class="col-lg-4 col-md-12">~
                                              <div class="form-group radio_c_group">
                                                  <div class="form-check">
                                                      <input class="form-check-input" type="checkbox" value="1" name="table_service_status" id="flexCheckDefault" @if($data->table_service_status == 1) checked @endif>
